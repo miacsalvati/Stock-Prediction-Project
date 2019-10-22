@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## Using Twitter Data to Predict the Change in Price of Company Stocks
 
-You can use the [editor on GitHub](https://github.com/oliverchase3/Stock-Prediction-Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The objective of this proposal is to create a model that predicts stock market trends based on notable tweets from companies with large followings. This model will gauge how a stock price shifts based on the change in perception of a company. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Background
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Twitter has quickly become one of the largest social networks in the world. Twitter has a wide variety of users, many of which freely express their opinion. The opinions of small groups, like that on Twitter, can often be reflective of a larger group, like the general public, which is representative of investors. For example, if a public company sends out a negative tweet, the reactions on twitter will most likely be negative, resulting in a loss in stock price. Our tweet scoring system, based off standard sentiment classifications, will use more available data, like follower count, retweets and likes to attain a more accurate score. By scoring popular or polarizing tweets, we should be able to accurately predict whether the stock will lose or gain. Using analysis methods like the R programming language can help us analyze larger amounts of tweets to ideally tune our model to become more accurate in predicting price direction. 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Expected Outcomes
 
-1. Numbered
-2. List
+From this research we aim to create a model with at least 60% accuracy in predicting directional stock movement. We also expect to find a strong correlation between public sentiment and market movement as similar discoveries were found in related research. This work will allow other researchers to create more accurate models based off our findings of how public opinion can affect the stock market.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/oliverchase3/Stock-Prediction-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
